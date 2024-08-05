@@ -1,0 +1,26 @@
+### GET request to example server
+POST https://api.mezoo.me/predict
+Content-Type: application/json
+
+{
+  "titles": [
+    "개인적인 생각인데 비트 급등할듯"
+  ]
+}
+
+
+###
+GET https://mezoo.me/api/v1/parse/1
+
+###
+GET https://mezoo.me/api/v1/update-prediction/new
+
+###
+GET https://mezoo.me/api/v1/make-mzm-index
+
+
+###
+GET http://localhost:3000/api/v1/update-prediction/new
+
+###
+GET http://localhost:3000/api/v1/make-mzm-index
